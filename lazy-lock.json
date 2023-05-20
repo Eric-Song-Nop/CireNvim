@@ -1,0 +1,4 @@
+{
+  "catppuccin": { "branch": "main", "commit": "8338b02e9a8ffcb999520de7f15943712618760f" },
+  "lazy.nvim": { "branch": "main", "commit": "5f316cea4f0b5379e0094d6cfa5e1ee5e279f65a" }
+}
