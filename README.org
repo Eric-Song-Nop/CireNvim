@@ -22,4 +22,7 @@ Till now:
 - [X] Basic options
 
 Next:
+- [ ] Setup file tree
+
+Next after next:
 - [ ] Setup lsp and completion for lua
