@@ -40,7 +40,7 @@ vim.g.neovide_cursor_vfx_particle_density = 10.0
 vim.g.neovide_floating_blur_amount_x = 2.0
 vim.g.neovide_floating_blur_amount_y = 2.0
 vim.opt.guifont = { "CaskaydiaCove Nerd Font Mono", ":h18" }
-vim.api.nvim_set_var("neovide_transparency", 0.90)
+vim.api.nvim_set_var("neovide_transparency", 0.85)
 vim.opt.fillchars.eob = " "                     -- show empty lines at the end of a buffer as ` ` {default `~`}
 vim.opt.shortmess:append "c"                    -- hide all the completion messages, e.g. "-- XXX completion (YYY)", "match 1 of 2", "The only match", "Pattern not found"
 vim.opt.whichwrap:append "<,>,[,],h,l"          -- keys allowed to move to the previous/next line when the beginning/end of line is reached
@@ -53,3 +53,6 @@ vim.opt.foldmethod = "expr" -- folding set to "expr" for treesitter based foldin
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()" -- set to "nvim_treesitter#foldexpr()" for treesitter based folding
 vim.opt.foldlevel = 99
 
+-- disable netrw at the very start of your init.lua (strongly advised)
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1

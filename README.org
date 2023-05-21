@@ -20,9 +20,9 @@ Till now:
 - [X] Structure plugin config for Lazy
 - [X] Colorscheme
 - [X] Basic options
+- [X] Setup file tree
 
 Next:
-- [ ] Setup file tree
+- [ ] Setup lsp and completion for lua
 
 Next after next:
-- [ ] Setup lsp and completion for lua
